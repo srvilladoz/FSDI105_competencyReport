@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Users</title>
+
+    <link href="menu.css" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <ul class="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="users.html">List Users</a></li>
+            <li><a href="register.html">Register Users</a></li>
+        </ul>
+        <div class="menu-info">
+            <label>3 users</label>
+        </div>
+
+    </nav>
+
+
+    <h1>These Are the Users Currently Registered Into The System</h1>
+
+
+    <button id="btnClear" class="btn-clear-data">Clear Users</button>
+
+
+    <table class="tbl-users">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Date of Birth</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+                <th>Payment</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+
+        <tbody id="tblUsers">
+
+        </tbody>
+            
+    </table>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="list.js"></script>
+    <script src="test.js"></script>
+    <script src="storageManager.js"></script>
+    <script src="menu.js"></script>
+    <script src="register.js"></script>
+
+
+    
+</body>
+</html>
